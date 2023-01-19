@@ -22,7 +22,7 @@ class Custom_Dataset(Dataset):
         self.file_paths, self.file_labels = [], []
                     
         for dirPath, dirNames, fileNames in os.walk(os.path.join(self.dataset_path, split)):
-            if dirPath.split("\\")[-1] == "GT":
+            if dirPath.split("/")[-1] == "GT":
                 for f in fileNames:
                     self.file_labels.append(os.path.join(dirPath, f))
             else:
