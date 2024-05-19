@@ -1,5 +1,7 @@
 # PVCNN: Point-Voxel CNN for Efficient 3D Deep Learning
 
+## This GitHub repository is modified from the official PVCNN repository and provides the code for custom dataset training.
+
 [NVIDIA Jetson Community Project Spotlight](https://news.developer.nvidia.com/point-voxel-cnn-3d/?ncid=so-twit-99540#cid=em02_so-twit_en-us)
 
 ```
